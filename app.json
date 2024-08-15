@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "MORBIDITY ADMIN",
+    "slug": "morbidity-admin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maaz16621.morbidityadmin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.maaz16621.morbidityadmin"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "daab5599-ed92-482d-a674-ee15c75e72aa"
+      }
+    },
+    "owner": "maaz16621",
+    "updates": {
+      "url": "https://u.expo.dev/daab5599-ed92-482d-a674-ee15c75e72aa"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
